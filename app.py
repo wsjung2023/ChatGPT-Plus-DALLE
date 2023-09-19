@@ -8,7 +8,7 @@ openai.api_key = st.secrets["api_key"]
 ###    if i['id'].startswith('gpt'):
 ###        print(i['id'])'''
 
-st.title("ChatGPT Plus DALL-E")
+st.title("Wooseub's Test WEBAPP ChatGPT Plus DALL-E")
 
 with st.form("form"):
     user_input = st.text_input("Prompt") 
